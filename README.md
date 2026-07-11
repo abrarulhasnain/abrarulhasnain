@@ -1,104 +1,52 @@
-<div id="header" align="center">
+<h1 align="center">Muhammad Abrar ul Hasnain</h1>
+<p align="center">AI Student @ Air University Islamabad · Frontend Developer</p>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey,%20I'm%20Muhammad%20Abrar%20ul%20Hasnain&fontSize=32&fontColor=ffffff&animation=fadeIn"/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/muhammad-abrar-ab7215404/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:abrar.khan56277@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.instagram.com/abrarulhasnain?igsh=MWtqenh4bjMzZDdtOQ==">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+</p>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=AI+Student+%40+Air+University+Islamabad;Frontend+Developer;Always+learning+%2C+always+building" alt="Typing SVG"/>
+---
 
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/muhammad-abrar-ab7215404/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://www.instagram.com/abrarulhasnain?igsh=MWtqenh4bjMzZDdtOQ==">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-    </a>
-    <a href="mailto:abrar.khan56277@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </div>
+### About
 
-  <br/>
+- AI Student at Air University Islamabad
+- Frontend developer, focused on clean and responsive UIs
+- Currently learning Python, JavaScript, HTML & CSS
+- Open to collaborating on frontend / AI projects
 
-  <img src="https://komarev.com/ghpvc/?username=Abrar-ul-hasnain&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
+### Tech Stack
 
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+</p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/andreasbm/master/assets/lines/rainbow.gif" width="100%">
+### GitHub Stats
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Abrar-ul-hasnain&show_icons=true&theme=default&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abrar-ul-hasnain&layout=compact&theme=default&hide_border=true" height="165"/>
+</p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/andreasbm/master/assets/lines/rainbow.gif" width="100%">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abrar-ul-hasnain&theme=default&hide_border=true"/>
 
-### 🙋‍♂️ About Me
+### Activity
 
-<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" align="right">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abrar-ul-hasnain&theme=minimal&hide_border=true" width="100%"/>
 
-- 🎓 AI Student at **Air University Islamabad**
-- 💻 Passionate **Frontend Developer** building clean & responsive UIs
-- 🌱 Currently learning **Python · JavaScript · HTML & CSS**
-- 🚀 Always exploring new technologies and growing every day
-- 📫 Reach me at **abrar.khan56277@gmail.com**
+---
 
-<br/>
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/andreasbm/master/assets/lines/rainbow.gif" width="100%">
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Abrar-ul-hasnain&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abrar-ul-hasnain&layout=compact&theme=radical&hide_border=true" height="165"/>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abrar-ul-hasnain&theme=radical&hide_border=true"/>
-</div>
-
-### 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abrar-ul-hasnain&theme=redical&hide_border=true&area=true" width="95%"/>
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/andreasbm/master/assets/lines/rainbow.gif" width="100%">
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abrar-ul-hasnain&theme=radical&no-frame=true&row=1&column=7"/>
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/andreasbm/master/assets/lines/rainbow.gif" width="100%">
-
-### 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Abrar-ul-hasnain/Abrar-ul-hasnain/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</div>
-
-### ✍️ Quote of the Day
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=6B7280&center=true&vCenter=true&width=500&lines=Always+learning+%F0%9F%93%9A;Always+building+%F0%9F%94%A8;Always+growing+%F0%9F%8C%B1" alt="Footer"/>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abrar-ul-hasnain&style=flat-square&color=blue" alt="Profile Views"/>
+</p>
