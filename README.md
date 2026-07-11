@@ -1,5 +1,8 @@
 <h1 align="center">Muhammad Abrar ul Hasnain</h1>
-<p align="center">AI Student @ Air University Islamabad · Frontend Developer</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=AI+Student+%40+Air+University+Islamabad;Frontend+Developer;Learning+Python+%2C+JS+%2C+HTML+%2C+CSS" alt="Typing SVG"/>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/muhammad-abrar-ab7215404/">
@@ -44,6 +47,12 @@
 ### Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abrar-ul-hasnain&theme=minimal&hide_border=true" width="100%"/>
+
+### Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abrar-ul-hasnain/Abrar-ul-hasnain/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</p>
 
 ---
 
