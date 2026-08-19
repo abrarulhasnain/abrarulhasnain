@@ -30,18 +30,18 @@ const LOG_START_Y = 56;
 const TYPE_DUR = 0.34; // seconds to "type" each line
 const LINE_GAP = 0.11; // stagger between lines starting
 
-// ---- colors (dark hacker / classic green terminal) --------------------
+// ---- colors (GitHub dark theme palette) --------------------------------
 const COLORS = {
-  bg: "#0a0e0a",
-  border: "#39d353",
-  ascii: "#39d353",
-  prompt: "#7ee787",
-  section: "#58a6ff",
-  key: "#7ee787",
-  value: "#c9d1d9",
-  dim: "#4d5b4d",
-  curve: "#39d353",
-  curveGlow: "#7ee787",
+  bg: "#0d1117",       // GitHub dark canvas
+  border: "#30363d",   // GitHub dark border
+  ascii: "#58a6ff",    // accent blue
+  prompt: "#58a6ff",   // accent blue
+  section: "#a371f7",  // accent purple
+  key: "#79c0ff",       // light blue
+  value: "#c9d1d9",    // primary fg
+  dim: "#8b949e",      // muted fg
+  curve: "#3fb950",    // success green (kept — reads as "progress")
+  curveGlow: "#56d364",
 };
 
 // "AH" stylized as blocky ASCII art
@@ -181,9 +181,9 @@ function buildSvg() {
     <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#39d353"/>
-    <stop offset="50%" stop-color="#58a6ff"/>
-    <stop offset="100%" stop-color="#39d353"/>
+    <stop offset="0%" stop-color="#58a6ff"/>
+    <stop offset="50%" stop-color="#a371f7"/>
+    <stop offset="100%" stop-color="#3fb950"/>
   </linearGradient>
   ${clipDefs}
   <style>

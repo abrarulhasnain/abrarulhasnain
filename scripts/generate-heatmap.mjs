@@ -36,9 +36,9 @@ const CURVE_H = 70; // height of the loss-curve band
 const WIDTH = GRID_X * 2 + COLS * STEP;
 const HEIGHT = CURVE_Y0 + CURVE_H + 30;
 const LOOP_DUR = 14; // seconds for one left-to-right pass
-const FLASH_COLOR = "#7ee787";
-const CURVE_COLOR = "#39d353";
-const MARBLE_COLOR = "#7ee787";
+const FLASH_COLOR = "#56d364";
+const CURVE_COLOR = "#58a6ff";
+const MARBLE_COLOR = "#79c0ff";
 const EMPTY_COLOR = "#161b22";
 
 const QUERY = `
@@ -158,9 +158,9 @@ function buildCurve(columns, loss) {
 
   const axisY = CURVE_Y0 + CURVE_H;
   const axis =
-    `<line x1="${GRID_X}" y1="${CURVE_Y0 - 4}" x2="${GRID_X}" y2="${axisY}" stroke="#4d5b4d"/>` +
-    `<line x1="${GRID_X}" y1="${axisY}" x2="${GRID_X + COLS * STEP}" y2="${axisY}" stroke="#4d5b4d"/>` +
-    `<text x="${GRID_X}" y="${CURVE_Y0 - 10}" font-family="Courier New, monospace" font-size="10" fill="#4d5b4d">loss (real, from contributions)</text>`;
+    `<line x1="${GRID_X}" y1="${CURVE_Y0 - 4}" x2="${GRID_X}" y2="${axisY}" stroke="#30363d"/>` +
+    `<line x1="${GRID_X}" y1="${axisY}" x2="${GRID_X + COLS * STEP}" y2="${axisY}" stroke="#30363d"/>` +
+    `<text x="${GRID_X}" y="${CURVE_Y0 - 10}" font-family="Courier New, monospace" font-size="10" fill="#8b949e">loss (real, from contributions)</text>`;
 
   return axis + curveDraw + marble;
 }
@@ -176,11 +176,11 @@ function buildSvg(weeks) {
   const loss = computeLoss(columns);
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WIDTH} ${HEIGHT}">
-<rect x="0" y="0" width="${WIDTH}" height="${HEIGHT}" rx="14" fill="#0a0e0a"/>
-<text x="${GRID_X}" y="16" font-family="Courier New, monospace" font-size="11" fill="#4d5b4d">contributions (last ${COLS} weeks)</text>
+<rect x="0" y="0" width="${WIDTH}" height="${HEIGHT}" rx="14" fill="#0d1117"/>
+<text x="${GRID_X}" y="16" font-family="Courier New, monospace" font-size="11" fill="#8b949e">contributions (last ${COLS} weeks)</text>
 ${buildGrid(columns, keyTimeForCol)}
 ${buildCurve(columns, loss)}
-<rect x="3" y="3" width="${WIDTH - 6}" height="${HEIGHT - 6}" rx="14" fill="none" stroke="#39d353" stroke-width="1.5" opacity="0.5"/>
+<rect x="3" y="3" width="${WIDTH - 6}" height="${HEIGHT - 6}" rx="14" fill="none" stroke="#30363d" stroke-width="1.5"/>
 </svg>`;
 }
 
