@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#39d353"/>
+    <stop offset="50%" stop-color="#58a6ff"/>
+    <stop offset="100%" stop-color="#39d353"/>
+  </linearGradient>
+  <clipPath id="lc0"><rect x="340" y="40" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="0.4s" fill="freeze"/></rect></clipPath><clipPath id="lc2"><rect x="340" y="82" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="0.62s" fill="freeze"/></rect></clipPath><clipPath id="lc3"><rect x="340" y="103" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="0.73s" fill="freeze"/></rect></clipPath><clipPath id="lc4"><rect x="340" y="124" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="0.84s" fill="freeze"/></rect></clipPath><clipPath id="lc5"><rect x="340" y="145" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="0.95s" fill="freeze"/></rect></clipPath><clipPath id="lc6"><rect x="340" y="166" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.06s" fill="freeze"/></rect></clipPath><clipPath id="lc8"><rect x="340" y="208" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.28s" fill="freeze"/></rect></clipPath><clipPath id="lc9"><rect x="340" y="229" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.39s" fill="freeze"/></rect></clipPath><clipPath id="lc10"><rect x="340" y="250" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.5s" fill="freeze"/></rect></clipPath><clipPath id="lc11"><rect x="340" y="271" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.61s" fill="freeze"/></rect></clipPath><clipPath id="lc13"><rect x="340" y="313" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.83s" fill="freeze"/></rect></clipPath><clipPath id="lc14"><rect x="340" y="334" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="1.94s" fill="freeze"/></rect></clipPath><clipPath id="lc15"><rect x="340" y="355" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="2.05s" fill="freeze"/></rect></clipPath><clipPath id="lc16"><rect x="340" y="376" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="2.16s" fill="freeze"/></rect></clipPath><clipPath id="lc18"><rect x="340" y="418" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="2.38s" fill="freeze"/></rect></clipPath><clipPath id="lc19"><rect x="340" y="439" width="0" height="22"><animate attributeName="width" from="0" to="700" dur="0.34s" begin="2.49s" fill="freeze"/></rect></clipPath>
+  <style>
+    .mono    { font-family: 'Courier New', Consolas, monospace; font-size: 13.5px; }
+    .ascii   { font-family: 'Courier New', Consolas, monospace; font-size: 13px; fill: #39d353; filter: url(#glow); }
+    .prompt  { fill: #7ee787; font-weight: bold; }
+    .section { fill: #58a6ff; font-weight: bold; }
+    .key     { fill: #7ee787; }
+    .value   { fill: #c9d1d9; }
+    .dim     { fill: #4d5b4d; }
+  </style>
+</defs>
+
+<rect x="0" y="0" width="980" height="460" rx="14" fill="#0a0e0a"/>
+
+<text class="ascii"><tspan x="40" y="70" xml:space="preserve">   ###    ##  ##  </tspan>
+<tspan x="40" y="85" xml:space="preserve">  #   #   ##  ##  </tspan>
+<tspan x="40" y="100" xml:space="preserve"> #     #  ##  ##  </tspan>
+<tspan x="40" y="115" xml:space="preserve"> #     #  ##  ##  </tspan>
+<tspan x="40" y="130" xml:space="preserve"> #######  ######  </tspan>
+<tspan x="40" y="145" xml:space="preserve"> #     #  ##  ##  </tspan>
+<tspan x="40" y="160" xml:space="preserve"> #     #  ##  ##  </tspan>
+<tspan x="40" y="175" xml:space="preserve"> #     #  ##  ##  </tspan></text>
+
+  <text x="40" y="226" class="mono dim" font-size="11">loss</text>
+  <line x1="40" y1="236" x2="40" y2="330" stroke="#4d5b4d" stroke-width="1"/>
+  <line x1="40" y1="330" x2="300" y2="330" stroke="#4d5b4d" stroke-width="1"/>
+  <text x="280" y="346" class="mono dim" font-size="11">epoch</text>
+  <path d="M40,240 L70,252 L95,270 L120,274 L150,295 L180,298 L210,310 L240,314 L270,322 L300,326" fill="none" stroke="#39d353" stroke-width="2" filter="url(#glow)"
+    stroke-dasharray="400" stroke-dashoffset="400">
+    <animate attributeName="stroke-dashoffset" from="400" to="0" dur="2.4s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </path>
+  <circle r="3.5" fill="#7ee787">
+    <animateMotion path="M40,240 L70,252 L95,270 L120,274 L150,295 L180,298 L210,310 L240,314 L270,322 L300,326" dur="2.4s" begin="1.2s" fill="freeze"/>
+  </circle>
+
+<line x1="320" y1="20" x2="320" y2="440" stroke="#4d5b4d" stroke-width="1" opacity="0.5"/>
+
+<g clip-path="url(#lc0)"><text x="340" y="56" class="mono"><tspan class="prompt">abrar@ai-engineer:~$ python train.py --student abrar_ul_hasnain</tspan></text></g>
+<g clip-path="url(#lc1)"><text x="340" y="77"></text></g>
+<g clip-path="url(#lc2)"><text x="340" y="98" class="mono"><tspan class="section">-- training log </tspan><tspan class="dim">----------------------------------------</tspan></text></g>
+<g clip-path="url(#lc3)"><text x="340" y="119" class="mono"><tspan class="key">epoch 01/∞ </tspan><tspan class="dim">: </tspan><tspan class="value">base_role   : Frontend Developer         loss: 0.91</tspan></text></g>
+<g clip-path="url(#lc4)"><text x="340" y="140" class="mono"><tspan class="key">epoch 02/∞ </tspan><tspan class="dim">: </tspan><tspan class="value">fine_tune  +: Backend &amp; AI Systems        loss: 0.68</tspan></text></g>
+<g clip-path="url(#lc5)"><text x="340" y="161" class="mono"><tspan class="key">epoch 03/∞ </tspan><tspan class="dim">: </tspan><tspan class="value">fine_tune  +: LLMs · RAG · AI Agents       loss: 0.44</tspan></text></g>
+<g clip-path="url(#lc6)"><text x="340" y="182" class="mono"><tspan class="key">status     </tspan><tspan class="dim">: </tspan><tspan class="value">training (no early stopping)</tspan></text></g>
+<g clip-path="url(#lc7)"><text x="340" y="203"></text></g>
+<g clip-path="url(#lc8)"><text x="340" y="224" class="mono"><tspan class="section">-- checkpoint </tspan><tspan class="dim">----------------------------------------</tspan></text></g>
+<g clip-path="url(#lc9)"><text x="340" y="245" class="mono"><tspan class="key">role       </tspan><tspan class="dim">: </tspan><tspan class="value">AI Engineer (in training)</tspan></text></g>
+<g clip-path="url(#lc10)"><text x="340" y="266" class="mono"><tspan class="key">focus      </tspan><tspan class="dim">: </tspan><tspan class="value">LLMs, RAG, AI Agents, ML Systems</tspan></text></g>
+<g clip-path="url(#lc11)"><text x="340" y="287" class="mono"><tspan class="key">education  </tspan><tspan class="dim">: </tspan><tspan class="value">BS Artificial Intelligence @ Air University</tspan></text></g>
+<g clip-path="url(#lc12)"><text x="340" y="308"></text></g>
+<g clip-path="url(#lc13)"><text x="340" y="329" class="mono"><tspan class="section">-- contact </tspan><tspan class="dim">----------------------------------------</tspan></text></g>
+<g clip-path="url(#lc14)"><text x="340" y="350" class="mono"><tspan class="key">email      </tspan><tspan class="dim">: </tspan><tspan class="value">abrarulhasnain7@gmail.com</tspan></text></g>
+<g clip-path="url(#lc15)"><text x="340" y="371" class="mono"><tspan class="key">linkedin   </tspan><tspan class="dim">: </tspan><tspan class="value">linkedin.com/in/muhammadabrar12</tspan></text></g>
+<g clip-path="url(#lc16)"><text x="340" y="392" class="mono"><tspan class="key">github     </tspan><tspan class="dim">: </tspan><tspan class="value">github.com/abrarulhasnain</tspan></text></g>
+<g clip-path="url(#lc17)"><text x="340" y="413"></text></g>
+<g clip-path="url(#lc18)"><text x="340" y="434" class="mono"><tspan class="section">-- live stats </tspan><tspan class="dim">----------------------------------------</tspan></text></g>
+<g clip-path="url(#lc19)"><text x="340" y="455" class="mono"><tspan class="key">note       </tspan><tspan class="dim">: </tspan><tspan class="value">see contribution graph below ↓</tspan></text></g>
+
+<rect x="340" y="462" width="8" height="16" fill="#7ee787" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.94s" repeatCount="indefinite"/>
+  </rect>
+
+<rect x="3" y="3" width="974" height="454" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.7">
+  <animate attributeName="opacity" values="0.4;0.85;0.4" dur="3s" repeatCount="indefinite"/>
+</rect>
+</svg>

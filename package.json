@@ -1,0 +1,13 @@
+{
+  "name": "abrarulhasnain-profile-readme",
+  "version": "1.0.0",
+  "description": "Generates the animated SVG cards for my GitHub profile README",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate:log": "node scripts/generate-training-log.mjs",
+    "generate:heatmap": "node scripts/generate-heatmap.mjs"
+  }
+}
